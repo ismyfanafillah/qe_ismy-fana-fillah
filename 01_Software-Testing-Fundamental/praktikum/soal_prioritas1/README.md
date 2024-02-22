@@ -1,7 +1,7 @@
 ### Soal Prioritas 1 (80)
 1. Sebutkan dan jelaskan berbagai automation testing tool yang dapat digunakan (minimal 3)!
 Jawab : 
-- [![Katalon Studio](https://www.katalon.com/)]
+- ![Katalon Studio](https://www.katalon.com/)
     
     Katalon Studio merupakan sebuah alat pengujian yang populer digunakan untuk menguji aplikasi mobile dan desktop browser. Salah satu fitur unggulannya adalah Katalon Recorder yang memungkinkan pengguna merekam langkah-langkah pengujian, menangkap elemen web, dan memainkan secara otomatis untuk test case yang sudah ada. Dengan demikian, pengguna dapat melakukan pengujian dengan lebih mudah dan dapat bersantai sambil menikmati kopi karena Katalon akan menjalankan pekerjaan pengujian. Alat ini cocok digunakan baik oleh pemula maupun ahli dalam bidang Quality Assurance (QA).
 
@@ -9,7 +9,7 @@ Jawab :
 
     Fitur-fitur unggulan Katalon mencakup metode fleksibel untuk desain tes, metodologi pengujian yang didukung, uji coba kembali otomatis, objek tes yang dapat digunakan kembali, integrasi dengan alat CI/CD dan ALM populer, antarmuka pemecahan masalah UI, integrasi dengan alat kolaborasi, dokumentasi alat yang detail, dan tutorial video di Katalon Academy.
 
-- [![Cypress.io](https://www.cypress.io/)]
+- ![Cypress.io](https://www.cypress.io/)
 
     Cypress.io adalah alat pengujian gratis yang dapat dijalankan pada Command Line Interface (CLI) dan dapat digunakan pada sistem operasi seperti Mac, Linux, dan Windows. Saat ini, Cypress hanya dapat melakukan pengujian pada web dan belum mendukung pengujian pada aplikasi mobile native. Namun, kita dapat menantikan pembaruan di masa depan yang mungkin akan memungkinkan penggunaan Cypress.io untuk pengujian aplikasi mobile.
 
@@ -17,20 +17,20 @@ Jawab :
 
     Cypress.io mendukung penggunaan berbagai bahasa pemrograman seperti JavaScript, Ruby, Node, C#, dan PHP. Alat ini dapat melakukan pengujian terhadap semua yang berjalan dalam konteks browser. Untuk informasi lebih lanjut tentang scripting dan penanganan kesalahan dalam pembuatan skrip pengujian, pengguna dapat mengakses https://github.com/cypress-io atau bergabung dengan komunitas pengguna di https://gitter.im/cypress-io/cypress yang akan memberikan bantuan dari pengembang Cypress.io atau pengguna senior yang sudah berpengalaman dengan Cypress.io. 
 
-- [![Postman](https://www.postman.com/)]
+- ![Postman](https://www.postman.com/)
 
     Postman adalah alat otomatisasi pengujian API yang sangat populer. Alat ini memungkinkan pengguna untuk menulis berbagai jenis tes, mulai dari fungsional dan integrasi hingga tes regresi, dan menjalankannya secara otomatis dalam pipeline CI/CD melalui baris perintah.
 
     Fitur Unggulan Postman meliputi antarmuka yang ramah dan mudah digunakan yang dilengkapi dengan potongan kode, dukungan untuk berbagai metode HTTP, Swagger, dan format RAML, dukungan luas untuk skema API untuk menghasilkan koleksi dan elemen API, pembuatan paket tes, eksekusi dengan parameterisasi, dan debugging, serta integrasi dengan alat CI/CD populer. 
 
 
-- [![Selenium](https://www.selenium.dev/)]
+- ![Selenium](https://www.selenium.dev/)
 
     Selenium, yang diluncurkan pada tahun 2004, merupakan salah satu kerangka kerja sumber terbuka yang paling populer untuk otomatisasi pengujian web. Suite perangkat lunak Selenium terdiri dari Selenium WebDriver, Selenium Grid, dan Selenium IDE. Selenium menonjol dengan dukungan untuk berbagai bahasa pemrograman seperti Java, C#, Python, JavaScript, Ruby, PHP, dan lainnya, serta mendukung berbagai browser seperti Chrome, Firefox, IE, Microsoft Edge, Opera, Safari. Alat ini memungkinkan pengguna untuk melakukan pengujian pada mesin lokal atau jarak jauh melalui server Selenium, serta melakukan eksekusi paralel dan lintas browser untuk mengurangi waktu eksekusi dan meningkatkan cakupan tes. Selain itu, Selenium juga dapat diintegrasikan dengan berbagai kerangka kerja pengujian lainnya seperti TestNG untuk pelaporan dan alat CI/CD.
 
     Selenium telah menjadi pilihan utama bagi para pengembang dan praktisi QA dalam mengotomatisasi pengujian web. Dengan kemampuan untuk mendukung berbagai bahasa pemrograman dan browser, Selenium memberikan fleksibilitas yang tinggi bagi pengguna dalam mengembangkan dan menjalankan skrip tes. Selain itu, fitur eksekusi paralel dan lintas browser Selenium membantu dalam meningkatkan efisiensi pengujian dengan mengurangi waktu eksekusi dan memperluas cakupan pengujian. Dengan integrasi yang kuat dengan berbagai alat pelaporan dan CI/CD, Selenium memungkinkan tim pengembangan untuk mengotomatisasi pengujian secara menyeluruh dan terintegrasi dengan alur kerja pengembangan perangkat lunak modern.
 
-- [![Appium](http://appium.io/)]
+- ![Appium](http://appium.io/)
 
     Appium merupakan alat otomatisasi untuk aplikasi mobile web, dan aplikasi hybrid untuk platform iOS dan Android. Penulisan aplikasi native menggunakan iOS dan Android SDKs. Appium dapat dijalankan baik pada simulator maupun perangkat nyata dan merupakan perangkat lunak sumber terbuka (open source).
 
