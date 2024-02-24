@@ -1,5 +1,5 @@
 ## Soal Prioritas 1 (80)
-### 1. Sebutkan dan jelaskan berbagai automation testing tool yang dapat digunakan (minimal 3)\
+### 1. Sebutkan dan jelaskan berbagai automation testing tool yang dapat digunakan (minimal 3)
 Jawab : 
 - #### [Katalon Studio](https://www.katalon.com/)
     
