@@ -27,6 +27,6 @@ Pada bagian ![alt text](image-3.png) ini menunjukan :
 - http_req_waiting... avg=60.83ms menunjukan waktu rata-rata dihabiskan menunggu respons dari server setelah koneksi sudah dibuat dan permintaan dikirim.
 - http_reqs... 7014 merupakan jumlah total permintaan HTTP yang dibuat selama pengujian.
 - iteration_duration... avg=1.07s menunjukan waktu rata-rata yang dibutuhkan untuk satu siklus lengkap dari skrip pengujian.
-iterations... 7014 merupakan jumlah siklus lengkap dari skrip pengujian yang berhasil dieksekusi.
+- iterations... 7014 merupakan jumlah siklus lengkap dari skrip pengujian yang berhasil dieksekusi.
 - vus... 1 merupakan jumlah minimum pengguna virtual yang aktif pada satu waktu selama pengujian.
 - vus_max... 50 merupakan jumlah maksimum pengguna virtual yang konfigurasi untuk digunakan dalam pengujian ini.
