@@ -41,18 +41,18 @@ Jawab :
 ### 2. Sebutkan dan jelaskan urgensi / pentingnya proses pengujian pada perangkat lunak (minimal 3 poin)
 Jawab :
 - #### Save Money
-    Proses pengujian perangkat lunak penting untuk menghemat biaya. Dengan melakukan pengujian secara menyeluruh, kita dapat mencegah kerugian finansial akibat bug atau kesalahan yang terlewatkan.
+    Proses pengujian perangkat lunak penting untuk menghemat biaya. Dengan melakukan pengujian secara menyeluruh, dapat mencegah kerugian finansial akibat bug atau kesalahan yang terlewatkan dan menyababkan kegagalan produk. Hal ini dikarenakan produk yang gagal tentunya harus melakukan pengujian atau perbaikan kembali (jika sudah diluncurkan ke pasar). Hal tersebut tentunya cukup fatal jika produk yang sudah diluncurkan memiliki banyak bug, dikarenakan melakukan pengujian saat produk sudah diluncurkan akan lebih rumit dibandingkan melakukan pengujian dengan memperhakilan level of testing. Selain, akan menyita waktu yang lebih banyak, hal tersebut juga tentunya akan menyita biaya lagi untuk produksi atau perbaikan kembali.
 
 - #### Product Quality
-    Pengujian yang baik dapat menjamin kualitas produk. Dengan proses pengujian yang teliti, kita dapat memastikan bahwa produk yang dihasilkan memiliki kualitas yang optimal sebelum diluncurkan ke pasar.
+    Pengujian yang baik dapat menjamin kualitas produk. Dengan melakukan proses pengujian yang teliti dan detail menyeluruh, dapat memastikan bahwa produk yang dihasilkan kualitas yang lebih optimal sebelum diluncurkan ke pasar atau klient. Dengan dihasilkannya produk yang berkualitas, maka dapat dikatakan produk berhasil melewati berbagai pengujian yang sesuai dan minim atau bahkan tidak ada bug dan tidak dikatakan sebagai produk gagal sehingga dapat meningkatkan kepercayaan konsumen atau klien.
 
 - #### Security
-    Keamanan data dan informasi dalam perangkat lunak sangat penting. Dengan melakukan pengujian yang komprehensif, kita dapat mengidentifikasi dan menutup celah keamanan yang dapat dieksploitasi oleh pihak yang tidak bertanggung jawab.
+    Keamanan data dan informasi dalam perangkat lunak sangat penting. Dengan melakukan pengujian yang komprehensif, tim developer maupun perusahaan terkait dapat mengidentifikasi dan menutup celah keamanan yang dapat dieksploitasi oleh pihak yang tidak bertanggung jawab. Keamanan sebagai salah satu hal yang menunjukan bahwa bahwa produk yang dibuat atau didevelop merupakan produk yang berkualitas dan aman tentunya bagi perusahaan yang menyimpan database atau data penting maupun konsumen (klien) yang nantinya akan menggunakan produk perangkat lunak tersebut, hal tersebut tentunya juga akan meningkatkan kepercayaan konsumen terhadap produk dan perusahaan terkait.
 
 - #### Customer Satisfaction
-    Untuk memastikan kepuasan pelanggan, proses pengujian perangkat lunak tidak boleh diabaikan. Dengan melakukan uji coba yang baik, kita dapat memastikan bahwa produk yang disajikan kepada pelanggan memiliki kualitas yang memuaskan.
+    Untuk memastikan kepuasan pelanggan, proses pengujian perangkat lunak tidak boleh diabaikan. Dengan melakukan pengujian yang detail menyeluruh dan melakukan berbagai kemungkinan dengan membuat user flow dan test case yang membantu memperkirakan apa yang akan dilakukan pengguna jika menggunakan produk tersebut, dapat memastikan apakah dalam produk perangkat lunak yang dibuat terdapat bug atau tidak dan sesuai dengan yang diharapkan konsumen/kebutuhan pasar atau tidak. Jika produk sesuai dengan apa yang diharapkan atau sesuai dengan pasar (klien) menunjukan bahwa produk yang disajikan kepada pelanggan memiliki kualitas yang memuaskan. Seperti halnya urgensi lainnya yaitu Product Quality dan Security, dengan memastikan kedua hal tersebut melalui pengujian akan meningkatkan rasa kepercayaan dan kepuasan konsumen/pasar (klien) terhadap produk perangkat lunak tersebut.
 
 ### Referensi : 
 - LMS dan Live Session
-- Medium 'Automation Testing tools yang wajib untuk di coba' [(https://medium.com/skyshidigital/automation-testing-tools-yang-wajib-untuk-di-coba-36430ddddda9)]
-- Katalon 'Top 15 Automation Testing Tools' [(https://katalon.com/resources-center/blog/automation-testing-tools#h10)]
+- [Medium 'Automation Testing tools yang wajib untuk di coba'](https://medium.com/skyshidigital/automation-testing-tools-yang-wajib-untuk-di-coba-36430ddddda9)
+- [Katalon 'Top 15 Automation Testing Tools'](https://katalon.com/resources-center/blog/automation-testing-tools#h10)

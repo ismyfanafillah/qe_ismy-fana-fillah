@@ -1,7 +1,7 @@
 ### Soal Prioritas 2 (20)
 1. Sebuah perusahaan e-commerce telah mengembangkan sebuah aplikasi yang dapat digunakan oleh pengguna dalam jual-beli barang, mendapatkan promo pada tanggal tertentu serta melihat video live streaming dari produk yang sedang dijual. Berdasarkan kasus tersebut, sebutkan berbagai teknik testing yang dapat digunakan pada aplikasi yang telah dikembangkan!
 Jawab : 
-
+Jika aplikasi dari sebuah perusahaan e-commerce tersebut sudah diluncurkan ke konsumen (disini asumsikan dari kalimat "Sebuah perusahaan e-commerce telah mengembangkan sebuah aplikasi"), maka teknik atau tipe testing yang dapat digunakan adalah Maintenance Testing. Maintenance Testing dapat dikatakan sebagai tipe testing yang dilakukan setelah semua aplikasi atau perangkat lunak dirilis ke konsumen atau user. Maintenance testing ini diperlukan untuk mempertahankan atau meningkatkan karakteristik kualitas Non-Functional dari komponen atau sistem selama masa pakainya, terutama efisiensi kerja, kompabilitas, keandalan, keamanan, dan portabilitas. Salah satu contoh teknik testing dari Maintenance Testing yang dapat digunakan dalam kasus ini adalah Regression Testing yaitu teknik yang digunakan setiap kali terdapat fungsionalitas baru ditambahkan atau fungsionalitas lama dihapus. Sehingga sangat sesuai dengan kasus ini yang mana aplikasi telah diluncurkan dan memiliki berbagai fungsi seperti jual-beli barang, mendapatkan promo pada tanggal tertentu,serta melihat video live streaming dari produk yang sedang dijual. Selain itu, dalam aplikasi yang telah jadi (rilis/diluncurkan) harus dilakukan regression testing untuk memastikan tidak ada bug baru.
 
 Referensi :
 - LMS dan Live Session

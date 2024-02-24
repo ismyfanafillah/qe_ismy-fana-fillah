@@ -1,26 +1,28 @@
-# Soal Tugas
+## Soal Tugas
 Sebutkan berbagai skill yang dibutuhkan untuk menjadi seorang software tester!
 Jawab : 
-1. Non-Technical skills
-a. analytical skill : harus punya skill analisis yang baik karena skill ini bisa membantu untuk memecah tatanan software yang compleks mencadi unit yang lebih sederhana, setelah disederhanakan kita bisa menemukan kesalahan dalam software dengan lebih mudah
-//bisa bantu untuk buat test case dengan bagi masalah kompleks menjadi lebh sederhana dengan membagi jadi bbrp bagian untuk test case
-b. communication skill : penting untuk memiliki skill komunikasi, dalam hal pekerjaan kita akan langsung berkomunikasi dengan tim produk atau tim development -- kita juga mungkin membicarakan hal teknis kepada org yang tidak paham mengenai hal tersebut. selain itu dalam melakukan pekerjaan kita tentu akan mlakukan tes tes terhadap hasil kerja tim developer, memberikan kritik tanpa menyinggung mereka merupakan hal yang perlu diperhatikan -- mungkin aja ada developer yang tersinggung dengan kritik adanya bug pada softwaree mereka
-// ketika buat dokumen harus mudah dibaca dan mudah dipahami (misal bikin report atau lainnya), rapi dll -- penting buat melakukan feedback dengan bahasa yang baik
-c. time management n organization skill : karena mampu bekerja dengan memahami apa yang perl dilakukan segera atau apa yang bida dilakukan setelahnya adl hal yang penting bgi ST -- slain itu sg bagian dari tim kita akan bekerja dengan mempertimbangkan jadwal orng lain jdi mengerjakan pekerjaan tpat waktu itu penting
-// mengelola berbagai load secara efisien, mana fitur yang harus ditesting duluan, mana fitur yang paling banyak dipakai dan paling krusial -- prioritaskan mana yang paling urgent
-d. great attitude : sikap utk test to break, detail orientation, willingness (kemauan) untuk belajar. harus meningkatkan skillnya dengan menyesuaikan perkembangan teknologi yang terus berubah
-// terus belajar hal baru krna bisa jadi tools yang digunakan ada alternatif lain yang lebih bagus 
-e. passion :  harus punya passion atau keinginan dibidang ini. mulai coba coba secara sederhana apakah nantinya merasa puas dibidang ini atau engga
-//
 
-2. technical skill
-a. basic knowlede of unix/linux commands : harus tau dasar commands linux -- berguna ketika melakukan ketika akan melakukan automation atau instalasi suatu software
-// harus menguasai krna ketika menjalani testing itu melalui command line
-b. knowledge and hans on experienxe of a 'test management tools' : sbuah software yang digunakan ST unruk menyimpan serangkaian informasi bagaimana pengujian product harus dilakukan -- perencanaan kegiatan, pengujian, serta dokumen terkait laporan status kegiatan penjaminan kualitas produk.umumnya setiap tools software memiliki keunggulan yg eda beda co : testlink, practitest, testrail, case.io
-//
-c. 'tracking management tools' : sebuah software yang digunakan untuk mengolah suatu proyek agar erjalan secara efisien dan efektif co : jira, pivotaltracker
-//
-d.  automation testing tool: pemilihan software automation mempengaruhi kesuksesan dalam pengujian spt katalon (bisa api web dll), karate dsl, codeception, rest assured
+### 1. Non-Technical skills
+#### a. Analytical skill 
+    Untuk menjadi seorang software teste harus mempunyai skill analisis yang baik karena skill ini dapat membantu untuk memecah tatanan software yang kompleks mencadi unit yang lebih sederhana, setelah disederhanakan kita dapat menemukan kesalahan dalam software dengan lebih mudah. Dapat dikatakan analytical skill ini dapat membantu untuk dalam membuat test case melalui dengan membagi masalah kompleks menjadi lebih sederhana dan membagi menjadi beberapa bagian untuk test case untuk memudahkan menemukan bug dalam produk.
+#### b. Communication skill
+    Penting untuk memiliki skill komunikasi saat berinteraksi kehidupan sosial, dalam hal pekerjaan seorang software tester akan langsung berkomunikasi dengan tim produk atau tim development sehingga penting pula untuk melakukan feedback dengan bahasa yang baik dan sesuai. Hal tersebut akan menghindari adanya kesalahpahaman dan perasaan tersinggung dengan kritik jika adanya bug pada softare yang didevelop. Seorang software tester juga mungkin membicarakan hal teknis kepada seseorang yang tidak paham mengenai hal tersebut, serta ketika buat dokumen harus mudah dibaca, mudah dipahami, rapi, dan lain sebagai (misal bikin report atau lainnya). Hal-hal tersebut tentunya membutuhkan skill komunikasi yang baik.
+#### c. Time Management and Oganization skill
+    Mampu bekerja dengan memahami apa yang perlu dilakukan segera atau apa yang dapat dilakukan setelahnya merupakan hal yang penting bagi seorang software tester. Selain itu dengan kemampuan manajemen waktu dan organisasi yang baik akan membantu dalam mengelola pekerjaan dengan baik, sebagai bagian dari tim pengembangan suatu produk pernagkat lunak tentunya akan bekerja dengan mempertimbangkan jadwal orang lain sehingga mengerjakan pekerjaan tepat waktu itu penting. Selain itu dengan kemampuan ini akan memudahkan mengelola berbagai load secara efisien, mana fitur yang harus ditesting lebih, mana fitur yang paling banyak dipakai dan paling krusial, sehingga dapat memprioritaskan mana yang paling urgent untuk diselesaikan atau diperbaiki bug-nya. 
+#### d. Great Attitude
+    Great Attitude ditandai dengan kemampuan atau sikap seorang software tester untuk test to break, detail orientation, willingness (kemauan) untuk belajar. Hal tersebut tentu perlu untuk dimiliki seorang software tester karena harus meningkatkan skillnya dengan menyesuaikan perkembangan teknologi yang terus berubah dan dengan terus belajar hal baru akan membawakan banyak pengetahuan untuk memungkinkan mmengetahui tools yang sedang digunakan ada alternatif lain yang lebih bagus.
+#### e. Passion
+    Seorang software tester harus punya passion atau keinginan untuk mengetahui atau memperlajari bidang ini. Untuk mengetahui apakah sudah sesuai passion dapat dilakukan dengan mulai mencoba-coba secara sederhana dan apakah nantinya merasa puas dibidang ini atau tidak. 
+
+### 2. Technical skills
+#### a. Basic knowlede of unix/linux commands
+    Untuk menjadi seorang software tester sangat perlu dan harus mengetahui dasar commands linux atau unix karena berguna ketika akan melakukan automation atau instalasi suatu software memungkinkan akan dilakukan testing itu melalui command line
+#### b. Knowledge and hans on experienxe of a 'Test Management Tools' 
+    Test Management Tools merupakan sebuah software yang digunakan software tester untuk menyimpan serangkaian informasi bagaimana pengujian produk harus dilakukan seperti perencanaan kegiatan, pengujian, serta dokumen terkait laporan status kegiatan penjaminan kualitas produk. Umumnya setiap tools software memiliki keunggulan yang berbeda-beda. Contoh Test Management Tools : testlink, practitest, testrail, dan case.io.
+#### c. Knowledge and hans on experienxe of a 'Tracking Management Tools'
+    Tracking Management Tools merupakan sebuah software yang digunakan oleh software tester untuk mengolah suatu proyek agar berjalan secara efisien dan efektif. Contoh Tracking Management Tools : jira dan pivotaltracker.
+#### d. Knowledge and hans on experienxe of a 'Automation Testing Tools'
+    Pemilihan software automation akan sangat mempengaruhi kesuksesan dalam pengujian karena pemilikan automation testing tools dalam pengujian suatu produk bergantung dari kebutuhan dan keperluan pengujian yang sesuai. Contoh Automation Testing Tools : katalon (API, Web, dan lainnya), karate DSL, codeception, dan rest assured.
 
 Referensi : 
 - LMS dan Live Session
