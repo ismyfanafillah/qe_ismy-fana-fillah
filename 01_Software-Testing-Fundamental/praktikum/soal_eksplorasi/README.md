@@ -1,13 +1,13 @@
 ## Soal Eksplorasi
 ### 1. Tulis kesimpulan dari hasil pengujian berikut 
-jawab : (gambar pada soal di Nation)\
+jawab : (gambar pada soal di Nation)
 
 Kesimpulan :\
 Gambar yang diberikan dalam notion tersebut menunjukan hasil dari pengujian beban yang digunakan untuk memahami kinerja sistem di bawah beban pengguna tertentu dengan pengujian dilakukan untuk API (API Testing). Hasil pengujian beban pada aplikasi atau sistem yang diberikan menunjukkan kinerja yang stabil dan efisien di bawah beban pengguna. Dalam durasi 3 menit dan 1 detik, dengan jumlah pengguna virtual bervariasi dari 0 hingga 50, sistem berhasil menyelesaikan 7014 iterasi tanpa kegagalan, menandakan keandalan sistem. Semua permintaan (200) ke API mendapat respons sukses (OK), dengan indikator kinerja utama seperti waktu durasi permintaan rata-rata 66.13 milidetik dan total 7014 permintaan HTTP berhasil dilakukan, menunjukkan responsifitas yang valid dan sesuai dari server terhadap beban permintaan.
 
 Pengujian juga mengukur aspek lainnya seperti waktu blokir permintaan, koneksi, penerimaan respons, dan TLS handshaking, semuanya menunjukkan efisiensi dalam penanganan permintaan. Dengan jumlah pengguna virtual maksimum yang dikonfigurasikan mencapai 50, pengujian ini secara efektif menggambarkan bagaimana sistem berperilaku dan merespons di bawah kondisi penggunaan yang bervariasi, dengan memastikan semua kondisi dan pemeriksaan dalam skrip pengujian terpenuhi tanpa adanya kegagalan.
 
-=========================================================================================
+============================================================================================
 
 Analisis :\
 Pada bagian ![alt text](image.png) ini menunjukan : 
