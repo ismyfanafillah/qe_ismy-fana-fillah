@@ -1,5 +1,5 @@
 ## Soal Tugas
-Sebutkan berbagai skill yang dibutuhkan untuk menjadi seorang software tester!
+Sebutkan berbagai skill yang dibutuhkan untuk menjadi seorang software tester!\
 Jawab : 
 
 ### 1. Non-Technical skills
