@@ -1,4 +1,4 @@
-# Rangkuman Pembelajaran Pertemuan 1-3
+# Resume Live Session QE 1-3
 
 ## (01) Software Testing Fundamental
 
