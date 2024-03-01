@@ -7,7 +7,7 @@ Contoh test scenario :\
 - Check the forgot email functionality
 - Check the create new accout functionality
 Dari test scenario yang sudah dibuat akan dirincikan oleh pembuatan test case.
-3. Test case dikatakan sebagai rincian dari test scenario yang sudah dibuat. Test case berfokus pada "HOW" atau bagaimana seorang software tester akan melakukan testing berdasakan test scenario yang sudah dibuat. Test case berisi case positif dan negatif. Test case positif misalnya memasukkan email dan password yang valid untuk login, sedangkan untuk test case negatif misalnya memasukkan emial dan password yang invalid untuk logins. Test case berisi pre-condition, steps, expected result (hasil yang diekspetasikan seperti apa), status, and actual result (hasil yang sebenarnya).\
+3. Test case dikatakan sebagai rincian dari test scenario yang sudah dibuat. Test case berfokus pada "HOW" atau bagaimana seorang software tester akan melakukan testing berdasakan test scenario yang sudah dibuat. Test case berisi case positif dan negatif. Test case positif misalnya memasukkan email dan password yang valid untuk login, sedangkan untuk test case negatif misalnya memasukkan email dan password yang invalid untuk logins. Test case berisi pre-condition, steps, expected result (hasil yang diekspetasikan seperti apa), status, and actual result (hasil yang sebenarnya).\
 Contoh test case :\
 Test scenario : check the login functionality\
 - Test case 1 : enter valid email and valid password
