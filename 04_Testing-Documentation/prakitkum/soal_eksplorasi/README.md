@@ -6,7 +6,7 @@
     3. Hasil pengujian ditulis dalam google docs.
     4. Contoh hasil pengujian dengan menggunakan Lighthouse adalah seperti pada notion.
 
-#### Hasil Pengujian 
+### Hasil Pengujian 
 [Pengujian dalam tampilan mobile](https://pagespeed.web.dev/analysis/https-petstore-octoperf-com-actions-Catalog-action/6mcms95njw?hl=id&form_factor=mobile)\
 [Pengujian dalam tampilan dekstop/web](https://pagespeed.web.dev/analysis/https-petstore-octoperf-com-actions-Catalog-action/6mcms95njw?hl=id&form_factor=desktop)\
 Penjelasan :\
