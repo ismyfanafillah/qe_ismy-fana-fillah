@@ -9,7 +9,7 @@
     - laporan/reporting, fitur pelaporan dengan visualisasi menarik dan memudahkan memahami hasil report, serta mempermudah team leader membuat kebijakan terhadap proyek.
 3. Fase tracking management dalam jira yaitu to do (yang akan dikerjakan dan sudah diproritaskan saat planing); in progress (yang sedang dikerjakan); finish (telah dikerjakan tapi belum siap untuk tahap testing); deliver (siap memasuki tahap testing); need fix (hasil proses tesing yang tidak lolos criteria); in progress lagi (perbaikan lagi/yang sedang dikerjakan); serta done (fitur yang sudah lolos dari criteria testing). Selain itu terdapat istilah issues pada Jira, issues pada jira akan melacak masalah yang mendasari proyek ataupun bug. 7 poin membuat issues sebagai berikut.
     -  Project : issues yang akan dibuat
-    - Issues type : ada tipe story (issue fitur baru), task (issue utk perincian tugas), bug (issue penemuan bug), epic (issue pengelompokan task)
+    - Issues type : ada tipe story (issue fitur baru), task (issue untuk perincian tugas), bug (issue penemuan bug), epic (issue pengelompokan task)
     - Reporter : berdasarkan yang memuat tugas
     - Descriptipn : kondisi acceptance critria dan test implementation
     - Priotity : prioritas berdasarkan kesulitasn task atau issue
