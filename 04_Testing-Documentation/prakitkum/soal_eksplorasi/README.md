@@ -8,12 +8,12 @@
 
 ### Hasil Pengujian non fungsional 
 [Pengujian dalam tampilan mobile](https://pagespeed.web.dev/analysis/https-petstore-octoperf-com-actions-Catalog-action/6mcms95njw?hl=id&form_factor=mobile)\
-[Pengujian dalam tampilan dekstop/web](https://pagespeed.web.dev/analysis/https-petstore-octoperf-com-actions-Catalog-action/6mcms95njw?hl=id&form_factor=desktop)\
-Penjelasan :\
+[Pengujian dalam tampilan dekstop/web](https://pagespeed.web.dev/analysis/https-petstore-octoperf-com-actions-Catalog-action/6mcms95njw?hl=id&form_factor=desktop)
+
 #### 1. Pengujian dalam tampilan mobile :
-    Berdasarkan hasil pengujian nonfungsional dalam tampilan mobile yang dilakukan terhadap aplikasi JPet Store membahas dua sub utama yaitu penilaian data web inti dan performa.
-    a. Penilaian data Web inti
-    Pada penilaian data web inti dihasilkan pengujian nonfungsional dalam tampilan mobile ini: Gagal. Gagalnya "Penilaian Data Web Inti" mungkin menunjukkan bahwa ada masalah dengan server atau proses pengujian itu sendiri yang tidak dapat mengakses halaman dengan benar untuk mengumpulkan metrik tertentu. Terdapat poin-poin metrik hasil pengujian terkait penilaian data web inti sebagai berikut.
+Berdasarkan hasil pengujian nonfungsional dalam tampilan mobile yang dilakukan terhadap aplikasi JPet Store membahas dua sub utama yaitu penilaian data web inti dan performa.
+a. Penilaian data Web inti
+Pada penilaian data web inti dihasilkan pengujian nonfungsional dalam tampilan mobile ini: Gagal. Gagalnya "Penilaian Data Web Inti" mungkin menunjukkan bahwa ada masalah dengan server atau proses pengujian itu sendiri yang tidak dapat mengakses halaman dengan benar untuk mengumpulkan metrik tertentu. Terdapat poin-poin metrik hasil pengujian terkait penilaian data web inti sebagai berikut.
     - Largest Contentful Paint (LCP)
         LCP mengukur waktu yang diperlukan untuk merender konten terbesar yang terlihat dalam viewport. Dari data yang diberikan, LCP berkisar antara 0,6 detik hingga 1 detik, yang menunjukkan performa yang baik karena di bawah ambang batas yang direkomendasikan yaitu 2,5 detik.
     - First Input Delay (FID)
