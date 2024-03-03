@@ -40,10 +40,10 @@ SEO menilai seberapa baik halaman dioptimalkan untuk mesin pencari, yang dapat m
 Berdasarkan hasil pengujian nonfungsional dalam tampilan mobile yang dilakukan terhadap aplikasi JPet Store membahas dua sub utama yaitu penilaian data web inti dan performa.
 ##### a. Penilaian data web inti
 Pada penilaian data web inti dihasilkan pengujian nonfungsional dalam tampilan dekstop/web ini : Lulus. Lulusnya "Penilaian Data Web Inti" menunjukkan bahwa aplikasi web telah berhasil memenuhi standar tertentu untuk metrik-metrik kinerja web yang dianggap penting oleh Google dalam konteks Core Web Vital. Terdapat poin-poin metrik hasil pengujian terkait penilaian data web inti sebagai berikut.
-###### - Largest Contentful Paint (LCP)
-Waktu yang tercatat adalah 0,6 detik, yang menunjukkan bahwa konten terbesar dalam viewport dimuat dengan sangat cepat. Ini jauh lebih baik dari ambang batas 2,5 detik yang direkomendasikan oleh Google, sehingga halaman tersebut lulus pada penilaian ini​​.
-###### - First Input Delay (FID)
-FID tercatat sangat rendah pada 1 milidetik, yang berarti halaman tersebut sangat responsif terhadap input pengguna pertama. Ini menunjukkan bahwa JavaScript yang menghalangi tidak mempengaruhi kemampuan halaman untuk merespons interaksi pengguna​​.
+- Largest Contentful Paint (LCP)
+    Waktu yang tercatat adalah 0,6 detik, yang menunjukkan bahwa konten terbesar dalam viewport dimuat dengan sangat cepat. Ini jauh lebih baik dari ambang batas 2,5 detik yang direkomendasikan oleh Google, sehingga halaman tersebut lulus pada penilaian ini​​.
+- First Input Delay (FID)
+    FID tercatat sangat rendah pada 1 milidetik, yang berarti halaman tersebut sangat responsif terhadap input pengguna pertama. Ini menunjukkan bahwa JavaScript yang menghalangi tidak mempengaruhi kemampuan halaman untuk merespons interaksi pengguna​​.
 ###### - Cumulative Layout Shift (CLS)
 CLS mendapatkan skor sempurna 0, yang menandakan tidak ada pergeseran tata letak yang tidak diinginkan selama pemuatan halaman. Ini berarti pengguna tidak akan mengalami perubahan posisi elemen secara tiba-tiba yang dapat menyebabkan interaksi yang tidak diinginkan​​.
 ###### - First Contentful Paint (FCP)
