@@ -12,10 +12,10 @@
 - Testing is an activity not a phase : tester dianjurkan untuk melakukan testing beriringan dengan proses development
 - Prevent bugs rather than finding : lebih fokus mencegah munculna bug dari pada menemukan bug
 - Don't be a checker, be a tester : tidak cukup hanya melakukan testing tanpa adanya improvement atau masukan terhadap apa yang di tes
-- Don't try to break system, instead help build the best possible system, :  ingat tujuan utama untuk membuat produk yang berkualitas dan posisikan sebagai user
+- Don't try to break system, instead help build the best possible system : ingat tujuan utama untuk membuat produk yang berkualitas dan posisikan sebagai user
 - The whole team is responsible for qualiy not just the tester : mengingat tanggung jawab kualitas adalahh prinsip agile dan tidak ada pembebanan pada satu pihak
 
 3. Tesing pyramid merupakan strategi yang membantu develoment dan outomation dalam membuat software testing yang berkualitas tinggi dan andal. Hal ini dapat mengurangi waktu yang dibutuhkan tim untuk mengidentifikasi apakah perubahan yang dilakukan dapat merusak sistem dengan menawarkan feedback secara langsung. Testing piramid beroperasi pada 3 tingkat untuk membantu mengurangi jumlah waktu yang dihabiskan tim automation dalam mengeksekusi test case dengan mengategorikan setiap fitur baru kedalam satu atau semua tes. 3 level testing piramid :\
 - Unit test (level paling bawah) : pengujian perangkat lunak yang menguji setiap unit atau komponen sebuah perangkat lunak dapat berupa fungsi, method, procedure, modul, maupun objek.
 - Integration test (level tengah) : pengujian dari hasil gabungan unit-unit yang ada dalam software dengan menguji unit-unit tersebut bekerja sebagai suatu kombinasi bukan lagi sebagai suatu unit yang individual. Integration testing sebaiknya dilakukan secara bertahap untuk menghindari kesulitan penelusuran jika terjadi kesalahan error atau bug.
-- UI test/E2E (level atas) : testing dengan menggunakn tools atau framework E2E memberitahu browser atau aplikasi terhadap apa yang harus dilakukan seperti tindakan klik, ketik, serta expected result yang diharapkan melalui tes.
+- UI test/E2E (level atas) : testing dengan menggunakan tools atau framework E2E memberitahu browser atau aplikasi terhadap apa yang harus dilakukan seperti tindakan klik, ketik, serta expected result yang diharapkan melalui tes.
