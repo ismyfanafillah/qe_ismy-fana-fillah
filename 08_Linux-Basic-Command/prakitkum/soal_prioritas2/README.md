@@ -6,7 +6,8 @@
     3. Di dalam folder favorites, buat 2 file yaitu food.txt dan drinks.txt.
     4. Di dalam file foods.txt diisi dengan makanan favorit.
     5. Di dalam file drinks.txt diisi dengan minuman favorit.
-    6. Hasil akhir shell script seperti ini: ![alt text](image.png)
+    6. Hasil akhir shell script seperti ini:\
+        ![alt text](image.png)
 
     Output dari shell script yang dijalankan :\
     ![alt text](image-1.png)\
