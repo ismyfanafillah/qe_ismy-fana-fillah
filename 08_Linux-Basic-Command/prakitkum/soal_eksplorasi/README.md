@@ -11,7 +11,9 @@
         "userId": 1
         }
         ```
-    
     4. Pengguna dapat memasukkan judul, body dan user ID.
     5. Contoh hasil akhir adalah seperti berikut:\
         ![alt text](image.png)
+
+    Contoh ouput dari shell script yang dijalankan :\
+    ![alt text](image-1.png)
