@@ -8,6 +8,6 @@
     5. Di dalam file drinks.txt diisi dengan minuman favorit.
     6. Hasil akhir shell script seperti ini: ![alt text](image.png)
 
-Output dari shell script yang dijalankan :\
-![alt text](image-1.png)\
-![alt text](image-2.png)
+    Output dari shell script yang dijalankan :\
+    ![alt text](image-1.png)\
+    ![alt text](image-2.png)
