@@ -1,6 +1,6 @@
 # (08) Linux Basic Commands
 
-1. Command line adalah sebuah perinth yang dituliskan dalam bentuk text-based. Command line sangat useful karena command line lebih cepat daripada menggunakan GUI. Dengan menggunakan command line akan menggunakan resources yang lebih sedikit sehingga lebih efisien, commnad line lebih cocok untuk tugas yang sifatnya berulang, dan penggunaan command line sangat powerful.
+1. Command line adalah sebuah perintah yang dituliskan dalam bentuk text-based. Command line sangat useful karena command line lebih cepat daripada menggunakan GUI. Dengan menggunakan command line akan menggunakan resources yang lebih sedikit sehingga lebih efisien, commnad line lebih cocok untuk tugas yang sifatnya berulang, dan penggunaan command line sangat powerful.
 2. Struktur dalam menuliskan command yaitu ```command [options] [parameters]```. Berbagai jenis commands yang bisa digunakan di linux di antaranya seperti basic commands ```(cal, date, etc.)```, file system commands ```(touch, ct, cp, mv, rm, mkdir, rmdir, cd, pwd, etc.)```, processes control commands ```(top, clear, history, etc.)```, utilities programs commands ```(ls, which, sudo, find, tree, etc.)```, file access permissions ```(chmod, chown, etc.)```. Format ketentuan penulisan untuk mengubah access permissions sebagai berikut.\
 ![alt text](image.png)\
 ![alt text](image-1.png)
