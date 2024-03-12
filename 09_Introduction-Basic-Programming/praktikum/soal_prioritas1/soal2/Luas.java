@@ -13,9 +13,9 @@ public class Luas {
 
         double luas = panjang * lebar;
         if (luas % 2 == 0) {
-            System.out.println("Even rectangle");
+            System.out.println("\"even rectangle\"");
         } else {
-            System.out.println("Odd rectangle");
+            System.out.println("\"odd rectangle\"");
         }
     }
 }
