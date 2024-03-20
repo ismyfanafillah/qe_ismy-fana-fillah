@@ -4,6 +4,7 @@ import java.util.HashSet;
 
 public class UniqueArray {
     public static void main(String[] args) {
+        // case 1
         int[] array1 = {1, 2, 3, 4};
         int[] array2 = {1, 3, 5, 10, 16};
         System.out.println(Arrays.toString(findUnique(array1, array2)));

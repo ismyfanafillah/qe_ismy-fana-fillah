@@ -1,47 +1,32 @@
-// pakai set
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
-// import java.util.Scanner;
-// import java.util.Map;
-// import java.util.HashMap;
-// import java.util.ArrayList;
-// import java.util.List;
+public class UniqueNumbers {
+  public static List<Integer> findUniqueNumbers(String input) {
+    int[] frequency = new int[10]; 
 
-// public class UniqueNumbers {
-//     public static void main(String[] args) {
-//         Scanner scanner = new Scanner(System.in);
-        
-//         // Prompting the user for input
-//         System.out.println("Enter a series of numbers: ");
-//         String input = scanner.nextLine();
-        
-//         // Using a map to store the frequency of each number
-//         Map<Character, Integer> frequencyMap = new HashMap<>();
-        
-//         // Iterating over the input to populate the frequency map
-//         for (char c : input.toCharArray()) {
-//             frequencyMap.put(c, frequencyMap.getOrDefault(c, 0) + 1);
-//         }
-        
-//         // Finding numbers that appear only once and storing them in a list
-//         List<Character> uniqueNumbers = new ArrayList<>();
-//         for (Map.Entry<Character, Integer> entry : frequencyMap.entrySet()) {
-//             if (entry.getValue() == 1) {
-//                 uniqueNumbers.add(entry.getKey());
-//             }
-//         }
-        
-//         // Outputting the result
-//         if (uniqueNumbers.isEmpty()) {
-//             System.out.println("Output: []");
-//         } else {
-//             System.out.print("Output: [");
-//             for (int i = 0; i < uniqueNumbers.size(); i++) {
-//                 System.out.print(uniqueNumbers.get(i));
-//                 if (i < uniqueNumbers.size() - 1) {
-//                     System.out.print(", ");
-//                 }
-//             }
-//             System.out.println("]");
-//         }
-//     }
-// }
+    for (char digit : input.toCharArray()) {
+      frequency[digit - '0']++;
+    }
+
+    List<Integer> uniqueNumbers = new ArrayList<>();
+
+    for (int i = 0; i < 10; i++) {
+        if (frequency[i] == 1) {
+          uniqueNumbers.add(i);
+        }
+    }
+    return uniqueNumbers;  
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+    
+        List<Integer> output = findUniqueNumbers(input);
+
+        System.out.println("Input: \"" + input + "\"");
+        System.out.println("Output: " + output);
+    }
+}
