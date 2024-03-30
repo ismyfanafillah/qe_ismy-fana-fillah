@@ -9,23 +9,23 @@ Frontend adalah sebuah bagian dari website yang membuat tampilan yang menarik ke
      - Membuat form HTML
      - Membuat gambar dengan canvas
      - Mempublikasikan halaman website secara online
-  - HTML Editors :
+   - HTML Editors :
      - Notepad
      - Visual Studio Code
      - Sublime
      - Notepad++
      - Atom
-  - Dokumentasi HTML
+   - Dokumentasi HTML
      - `<!DOCTYPE html>` : Mendefinisikan dokumen sebagai HTML5.
      - `<html>` : Elemen root dari halaman HTML.
      - `<head>` : Berisi informasi meta tentang dokumen.
      - `<title>` : Menentukan judul untuk dokumen.
      - `<body>` : Berisi konten halaman yang terlihat.
 2. CSS (Cascading Style Sheets) dapat digunakan untuk menghias halaman web (color, size, font, background, width, height, dan sebagainya), serta dapat mengatur posisi pada halaman web (float, align, display, position, dan sebagainya).
-  - Cara menambahkan file CSS ke dalam HTML :
-    - External CSS : Syntax ini disisipkan ke dalam tah `<head>` pada HTML. Ekstensi file CSS adalah .css\
+   - Cara menambahkan file CSS ke dalam HTML :
+     - External CSS : Syntax ini disisipkan ke dalam tah `<head>` pada HTML. Ekstensi file CSS adalah .css\
       `<link rel="stylesheet" href="main.css'>`
-    - Internal CSS : Syntax ini dapat digunakan di dalam satu file HTML. Didefinisikan di dalam elemen `<style>`, di dalam bagian `<head>` atau di dalam bagian `<body>`\
+     - Internal CSS : Syntax ini dapat digunakan di dalam satu file HTML. Didefinisikan di dalam elemen `<style>`, di dalam bagian `<head>` atau di dalam bagian `<body>`\
       `<style>
         body {
            background-color: #19355f;
