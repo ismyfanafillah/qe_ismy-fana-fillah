@@ -14,8 +14,8 @@ Then("I should be on the login page", () => {
 });
 
 And("I fill in the email and password fields with valid credentials", () => {
-  cy.get("input[name='email']").type("irfanabdillah06@gmail.com");
-  cy.get("input[name='password']").type("Keluarga12345");
+  cy.get("input[name='email']").type("ismyff@gmail.com");
+  cy.get("input[name='password']").type("conotohismy731");
 });
 
 And("I click the {string} button again", (button) => {

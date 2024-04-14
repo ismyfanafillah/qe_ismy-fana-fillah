@@ -1,7 +1,13 @@
-Feature: Select product
+Feature: Product Selection
   As a user
   I want to select a product
   so that I can make a purchase
+
+  Scenario: Choosing a product from the product list
+    Given I am logged in and on the product page
+    When I select a product
+    And I add it to my cart
+    Then the cart should contain the selected product
 
   Scenario: Selecting pulsa product
     Given I am on the product selection page
