@@ -1,5 +1,43 @@
-# (18) Web UI Testubf with Serenity
+# (18) Web UI Testing with Serenity
 
-1. Serenity BDD adalah sebuah framework Behavior-Driven Development (BDD) sumber terbuka yang mendukung penulisan tes otomatis yang terstruktur dengan baik dan mudah dipelihara. Kerangka kerja ini berfokus pada arsitektur yang meliputi Halaman, Langkah-langkah, Persyaratan, Tes, dan Laporan, memungkinkan pengembang dan penguji untuk bekerja dengan skenario berbasis cerita pengguna dan kriteria penerimaan yang jelas. Dalam menggunakan Serenity, proses dimulai dengan mendefinisikan persyaratan, yang sering kali diungkapkan sebagai cerita pengguna. Cerita ini nantinya akan diotomatisasi oleh Serenity, yang mengkonversikan kriteria penerimaan ke dalam tes otomatis. Serenity mengintegrasikan kriteria penerimaan ini dalam tes otomatis menggunakan alat BDD seperti Cucumber, di mana kriteria dinyatakan dalam bahasa bisnis tingkat tinggi menggunakan sintaks Gherkin. Contohnya, untuk sebuah skenario seperti pencarian artikel berdasarkan kata kunci di sebuah situs e-commerce, cerita dan skenario spesifik akan ditulis, kemudian diimplementasikan dalam kode sehingga tes dapat dijalankan terhadap aplikasi yang sebenarnya. Tes ini kemudian dipecah menjadi langkah-langkah yang lebih kecil, memastikan bahwa setiap aspek skenario diuji secara menyeluruh. Setelah tes dijalankan, Serenity menyediakan laporan terperinci tentang hasilnya. Laporan ini termasuk narasi untuk setiap tes, tangkapan layar untuk setiap langkah, hasil tes yang mencakup waktu eksekusi, dan pesan kesalahan jika tes gagal. Ini memberikan wawasan yang jelas dan mendetail tentang performa aplikasi dan area yang memerlukan perbaikan.
-2. Dalam proses pengembangan, persiapan dan konfigurasi alat seperti Homebrew, Maven, dan WebDriver adalah langkah penting. Pengaturan file `pom.xml` adalah kunci untuk mengintegrasikan versi Serenity yang diperlukan dan dependensi lainnya. Selanjutnya, proses penulisan tes meliputi pembuatan file cerita yang mendefinisikan skenario tes, kelas tes untuk mengotomatisasi cerita, langkah-langkah tes yang menerjemahkan skenario ke dalam kode, dan objek halaman yang berinteraksi dengan elemen-elemen web. Sebagai contoh praktis, dokumen memberikan panduan langkah demi langkah untuk membuat skenario tes seperti login sukses di Facebook, mulai dari penulisan cerita tes hingga pembuatan kelas tes dan langkah-langkah tes. Ini meliputi penambahan komponen seperti lapangan input, tombol, dan pesan kesalahan, serta konfigurasi driver seperti Chrome Driver.
-3. Serenity BDD menawarkan fitur lanjutan seperti injeksi parameter, penyaringan meta untuk manajemen skenario, dan skenario terparameterisasi, serta anotasi khusus seperti `@AfterScenario` dan `@BeforeScenario`. Fitur-fitur ini meningkatkan fleksibilitas dan kekuatan framework dalam mengelola tes yang kompleks. Selain itu, konfigurasi file `serenity.properties` memberikan kontrol lebih lanjut atas pelaksanaan tes, seperti menentukan browser yang digunakan atau URL dasar aplikasi. Inti dari Serenity BDD dengan Cucumber adalah untuk menciptakan proses pengujian yang lebih intuitif, terstruktur, dan mudah dipelihara, yang pada gilirannya meningkatkan kualitas dan keandalan aplikasi web.
+## Serenity BDD
+
+Serenity architecture concist:
+1. Requirements
+2. Tests
+3. Steps
+4. Pages
+5. Reports
+
+
+### Define Requirements
+- When using Serenity, you start with the requirements you need to implement.
+- These are often expressed as user "stories" with acceptance criteria that help clarify requirements.
+- It is these "stories" that Serenity automate.
+
+
+### Automate Aceeptance Criteria
+Contoh penulisan dalam format BDD:
+
+**Feature**: Search by keyword  
+In order for buyers to find what they are looking for  
+  As a seller  
+  I want buyers to be able to search articles by keywords  
+
+  Scenario: Search for articles by keyword  
+    Given I want to buy a wool scarf  
+    When I search for 'wool'  
+    Then I should see only articles related to 'wool'
+
+### Report on Test Result
+Serenity provides detailed reports on the test results and execution, including:
+- A narrative for each test
+- Screenshots for each step in the test
+- Test results including execution times and error messages if a test failed
+
+
+### Yang perlu diperhatikan
+- Inspect web page 
+- Get field component (id)
+- Add error message component
+- configure chrome driver
