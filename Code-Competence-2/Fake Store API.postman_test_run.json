@@ -1,0 +1,530 @@
+{
+	"id": "ff7340fa-dae8-4b9b-b9df-e5f60f08bbbf",
+	"name": "Fake Store API",
+	"timestamp": "2024-05-17T16:15:30.596Z",
+	"collection_id": "33061954-3387fbf0-6568-42b8-b6ec-ce8660ba903e",
+	"folder_id": 0,
+	"environment_id": "33061954-87edc878-886c-4b52-9add-3375df1578dd",
+	"totalPass": 34,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-05-17T16:15:23.752Z",
+	"totalFail": 9,
+	"results": [
+		{
+			"id": "0b4173ee-c9f2-40c9-9b99-9488f87c8284",
+			"name": "Login with valid credentials",
+			"url": "https://fakestoreapi.com/auth/login",
+			"time": 591,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Request body should match expected format and values": true,
+				"Response Content-Type header is 'application/json'": true,
+				"Data in the response should not be empty": true,
+				"Data field should exist and be of type string": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Request body should match expected format and values": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type header is 'application/json'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data in the response should not be empty": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data field should exist and be of type string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				591
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Request body should match expected format and values": true,
+					"Response Content-Type header is 'application/json'": true,
+					"Data in the response should not be empty": true,
+					"Data field should exist and be of type string": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "504f6086-2854-43a5-9d06-9cc0853c7a09",
+			"name": "Login with empty JSON body",
+			"url": "https://fakestoreapi.com/auth/login",
+			"time": 398,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response status code is 400": true,
+				"Request body should be empty": true,
+				"Response body contains the expected string 'not found'": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Request body should be empty": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body contains the expected string 'not found'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				398
+			],
+			"allTests": [
+				{
+					"Response status code is 400": true,
+					"Request body should be empty": true,
+					"Response body contains the expected string 'not found'": true
+				}
+			]
+		},
+		{
+			"id": "3bea52c7-500d-4e1b-8e1a-a95959ac740f",
+			"name": "Get a single product by valid ID",
+			"url": "https://fakestoreapi.com/products/1",
+			"time": 400,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Product ID": true,
+				"Response must be valid and have a body": true,
+				"Status code is 200": true,
+				"Response contains product ID": true,
+				"Response content type is application/json": true,
+				"Response data object should have ID, Title, Price, Description, Category, Image, Rating": true
+			},
+			"testPassFailCounts": {
+				"Product ID": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains product ID": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response content type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response data object should have ID, Title, Price, Description, Category, Image, Rating": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				400
+			],
+			"allTests": [
+				{
+					"Product ID": true,
+					"Response must be valid and have a body": true,
+					"Status code is 200": true,
+					"Response contains product ID": true,
+					"Response content type is application/json": true,
+					"Response data object should have ID, Title, Price, Description, Category, Image, Rating": true
+				}
+			]
+		},
+		{
+			"id": "121705f8-2f3b-4a2a-879b-ad54f52268bc",
+			"name": "Get a single product by invalid ID",
+			"url": "https://fakestoreapi.com/products/21",
+			"time": 1158,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 404": false,
+				"Response body contains the expected 'error'": false,
+				"Response time is less than 500ms": false
+			},
+			"testPassFailCounts": {
+				"Response status code is 404": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response body contains the expected 'error'": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 500ms": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				1158
+			],
+			"allTests": [
+				{
+					"Response status code is 404": false,
+					"Response body contains the expected 'error'": false,
+					"Response time is less than 500ms": false
+				}
+			]
+		},
+		{
+			"id": "d712a77c-41f8-493f-a88f-207baf648812",
+			"name": "Add new product with JSON body format",
+			"url": "https://fakestoreapi.com/products",
+			"time": 589,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response must be valid and have a body": true,
+				"Response status code should have 200 value": true,
+				"Response content type is application/json": true,
+				"Response data object should have ID, Title, Price, Description, Image, and Category properties": true,
+				"Request body should match expected format and values": true
+			},
+			"testPassFailCounts": {
+				"Response must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response status code should have 200 value": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response content type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response data object should have ID, Title, Price, Description, Image, and Category properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Request body should match expected format and values": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				589
+			],
+			"allTests": [
+				{
+					"Response must be valid and have a body": true,
+					"Response status code should have 200 value": true,
+					"Response content type is application/json": true,
+					"Response data object should have ID, Title, Price, Description, Image, and Category properties": true,
+					"Request body should match expected format and values": true
+				}
+			]
+		},
+		{
+			"id": "742446db-c69e-44cd-b07a-bd3134cbe863",
+			"name": "Add new product with empty JSON body",
+			"url": "https://fakestoreapi.com/products",
+			"time": 390,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code should be 400 for bad request": false,
+				"Response should contain error message for empty JSON body": false,
+				"Request body should be empty": true
+			},
+			"testPassFailCounts": {
+				"Response status code should be 400 for bad request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response should contain error message for empty JSON body": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Request body should be empty": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				390
+			],
+			"allTests": [
+				{
+					"Response status code should be 400 for bad request": false,
+					"Response should contain error message for empty JSON body": false,
+					"Request body should be empty": true
+				}
+			]
+		},
+		{
+			"id": "290fcf1e-348d-4bb9-b26a-d79f25ebc295",
+			"name": "Get single cart with valid ID",
+			"url": "https://fakestoreapi.com/carts/1",
+			"time": 576,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Cart ID": true,
+				"Response must be valid and have a body": true,
+				"Status code is 200": true,
+				"Response contains carts ID": true,
+				"Response content type is application/json": true,
+				"Response data object should have ID, User ID, Date, Products, and Version properties": true
+			},
+			"testPassFailCounts": {
+				"Cart ID": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains carts ID": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response content type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response data object should have ID, User ID, Date, Products, and Version properties": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				576
+			],
+			"allTests": [
+				{
+					"Cart ID": true,
+					"Response must be valid and have a body": true,
+					"Status code is 200": true,
+					"Response contains carts ID": true,
+					"Response content type is application/json": true,
+					"Response data object should have ID, User ID, Date, Products, and Version properties": true
+				}
+			]
+		},
+		{
+			"id": "1a5e2194-3ce8-4993-8381-2ef70e23903e",
+			"name": "Get a single cart with invalid ID",
+			"url": "https://fakestoreapi.com/carts/21",
+			"time": 594,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 404": false,
+				"Response body contains the expected 'error'": false,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 404": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response body contains the expected 'error'": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				594
+			],
+			"allTests": [
+				{
+					"Response status code is 404": false,
+					"Response body contains the expected 'error'": false,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "c75bbfef-2541-4ee7-ab55-6e2faeaa8e70",
+			"name": "Get single user with valid ID",
+			"url": "https://fakestoreapi.com/users/1",
+			"time": 597,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response must be valid and have a body": true,
+				"Status code is 200": true,
+				"Response contains carts ID": true,
+				"Response content type is application/json": true,
+				"Response data object should have Address, ID, Email, Username, Password, Name, Phone, and Version properties": true
+			},
+			"testPassFailCounts": {
+				"Response must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains carts ID": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response content type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response data object should have Address, ID, Email, Username, Password, Name, Phone, and Version properties": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				597
+			],
+			"allTests": [
+				{
+					"Response must be valid and have a body": true,
+					"Status code is 200": true,
+					"Response contains carts ID": true,
+					"Response content type is application/json": true,
+					"Response data object should have Address, ID, Email, Username, Password, Name, Phone, and Version properties": true
+				}
+			]
+		},
+		{
+			"id": "ccb51721-6430-4993-888e-e86bda2294dd",
+			"name": "Get a single user with invalid ID",
+			"url": "https://fakestoreapi.com/users/11",
+			"time": 610,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 404": false,
+				"Response body contains the expected 'error'": false,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 404": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response body contains the expected 'error'": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				610
+			],
+			"allTests": [
+				{
+					"Response status code is 404": false,
+					"Response body contains the expected 'error'": false,
+					"Response time is less than 1000ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5903,
+	"collection": {
+		"requests": [
+			{
+				"id": "0b4173ee-c9f2-40c9-9b99-9488f87c8284",
+				"method": "POST"
+			},
+			{
+				"id": "504f6086-2854-43a5-9d06-9cc0853c7a09",
+				"method": "POST"
+			},
+			{
+				"id": "3bea52c7-500d-4e1b-8e1a-a95959ac740f",
+				"method": "GET"
+			},
+			{
+				"id": "121705f8-2f3b-4a2a-879b-ad54f52268bc",
+				"method": "GET"
+			},
+			{
+				"id": "d712a77c-41f8-493f-a88f-207baf648812",
+				"method": "POST"
+			},
+			{
+				"id": "742446db-c69e-44cd-b07a-bd3134cbe863",
+				"method": "POST"
+			},
+			{
+				"id": "290fcf1e-348d-4bb9-b26a-d79f25ebc295",
+				"method": "GET"
+			},
+			{
+				"id": "1a5e2194-3ce8-4993-8381-2ef70e23903e",
+				"method": "GET"
+			},
+			{
+				"id": "c75bbfef-2541-4ee7-ab55-6e2faeaa8e70",
+				"method": "GET"
+			},
+			{
+				"id": "ccb51721-6430-4993-888e-e86bda2294dd",
+				"method": "GET"
+			}
+		]
+	}
+}
